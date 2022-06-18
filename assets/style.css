@@ -7,6 +7,36 @@ body {
     scroll-behavior: smooth;
 }
 
+
+@media only screen
+and (min-width : 321px)
+and (max-width : 767px)
+{
+
+    img.astronaut {
+        height: 30% !important;
+        width: 60% !important;
+        margin-top: 40% !important;
+        margin-left: 22% !important;
+
+    }
+
+    .text {
+        top: 70% !important;
+        left: 50% !important;
+        font-size: 1.87rem !important;
+    }
+
+    .text p{
+        font-size: 1.25rem !important;
+    }
+
+    section{
+        overflow: hidden !important;
+    }
+}
+
+
 img.astronaut {
     width: 512px;
     height: 512px;
@@ -72,7 +102,6 @@ section{
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url(./bg0.jpg);
     background-position-x: center;
     background-size: cover;
     animation: animateBg 50s linear infinite;
@@ -173,7 +202,7 @@ span:nth-child(6){
     animation-delay:1s ;
     animation-duration: 3s;
 }
-span:nth-child(7 ){
+span:nth-child(7){
     top: 300px;
     right: 0px;
     left:initial;
